@@ -7,15 +7,8 @@ import java.util.ListIterator;
 // DESCRIPTION  : This file contains the class Intcoll5.
 //*********************************************************************
 public class Intcoll5 {
-////////////////////////////////////////////
-//  Variables
-////////////////////////////////////////////
-
     private LinkedList<Integer> c;
-
-////////////////////////////////////////////
-//  Crap
-////////////////////////////////////////////
+    
     /*
     Constructor for Intcoll5 class
      */
@@ -56,9 +49,6 @@ public class Intcoll5 {
         return i;
     }
 
-////////////////////////////////////////////
-//  Belongs
-////////////////////////////////////////////
     /*
     Checks if the integer in the parameter is in our list.
      */
@@ -69,9 +59,7 @@ public class Intcoll5 {
         */
         return c.contains(integer);
     }
-////////////////////////////////////////////
-//  Insert
-////////////////////////////////////////////
+    
     //Inserts a number into the collection
     public void insert(int integer) {
         /*
@@ -85,10 +73,7 @@ public class Intcoll5 {
                     + "negative numbers or zero.");
         }
     }
-
-////////////////////////////////////////////
-//  Omit
-////////////////////////////////////////////
+    
     /*
     Deletes a member from the linked list
      */
@@ -108,10 +93,7 @@ public class Intcoll5 {
             }
         }
     }
-
-////////////////////////////////////////////
-//  Copy
-////////////////////////////////////////////
+    
     /*
     Here we copy the contents from the parameter
     into the obj that executed it.
@@ -156,9 +138,7 @@ public class Intcoll5 {
     /*
     Prints all contents in the list
      */
-////////////////////////////////////////////
-//  Print
-////////////////////////////////////////////
+    
     /*
     Print all contents
      */
@@ -174,9 +154,6 @@ public class Intcoll5 {
         }
     }
 
-////////////////////////////////////////////
-//  Equals
-////////////////////////////////////////////
     /*
     Tests the equaluty of two lists by content and order.
      */
